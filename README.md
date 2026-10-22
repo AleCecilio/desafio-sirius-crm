@@ -269,9 +269,9 @@ desafio-sirius-crm/
 
 ### Capturas de tela
 
-| Dashboard | Análise de IA |
-|---|---|
-| ![Dashboard](docs/screenshots/01_dashboard_geral_dark.png) | ![Novo Contato](docs/screenshots/03_Novo_Cliente_dark.png)| ![Análise](docs/screenshots/05_Detalhes_do_cliente_dark.png) | 
+| Dashboard | Novo Contato | Detalhes do Cliente |
+|---|---|---|
+| ![Dashboard](docs/screenshots/01_dashboard_geral_dark.png) | ![Novo Contato](docs/screenshots/03_Novo_Cliente_dark.png) | ![Detalhes do Cliente](docs/screenshots/05_Detalhes_do_cliente_dark.png) |
 
 ---
 
