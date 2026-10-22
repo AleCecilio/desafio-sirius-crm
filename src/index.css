@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tokens em formato "R G B" para o Tailwind aplicar opacidade (bg-surface/60 etc.) */
+@layer base {
+  :root {
+    color-scheme: light;
+    --canvas: 243 245 250;   /* fundo da página */
+    --surface: 255 255 255;  /* cards */
+    --raised: 238 242 249;   /* cabeçalho de tabela, hover */
+    --line: 224 229 239;     /* bordas */
+    --ink: 18 38 72;         /* texto principal (azul marinho) */
+    --mute: 100 112 138;     /* texto secundário */
+    --gold: 176 137 51;      /* dourado com contraste em fundo claro */
+    --sidebar: 18 38 72;     /* #122648 */
+  }
+
+  .dark {
+    color-scheme: dark;
+    --canvas: 8 18 36;
+    --surface: 14 30 56;
+    --raised: 21 41 74;
+    --line: 36 58 94;
+    --ink: 236 240 247;
+    --mute: 140 156 184;
+    --gold: 212 175 90;      /* dourado mais claro no escuro */
+    --sidebar: 5 12 26;
+  }
+
+  body {
+    @apply bg-canvas text-ink antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
